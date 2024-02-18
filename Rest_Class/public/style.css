@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: aliceblue;
+}
+
+
+h1 {
+    color: maroon;
+    padding: 2rem;
+}
+
+.post {
+    width: 50%;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: rgb(157, 223, 226);
+}
+
+.uname {
+    color: rgb(78, 76, 219)
+}
+
+.content {
+    margin-top: 1rem;
+}
+
+.btnsContainer a {
+    text-decoration: none;
+    color: black;
+}
+
+.btnsContainer {
+    display: flex;
+}
+
+.seeIndetail {
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-right: 1rem;
+    color: black;
+}
+
+.edit {
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-right: 1rem;
+    color: black;
+}
+
+.delete {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.create_post {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #465051;
+    margin-left: 1rem;
+    font-weight: 600;
+}
+
+.create_post a {
+    text-decoration: none;
+    color: rgb(255, 254, 254, 0.5);
+}
+
+.create_post a:hover {
+    color: white;
+}
+
+/* Show.ejs */
+.show-container h2 {
+    margin: 2rem;
+}
+
+.show-container p {
+    margin: 2rem;
+}
+
+/* edit.ejs */
+.edit-container h2 {
+    margin: 2rem;
+}
+
+.edit-container p {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 1rem 0 0 2rem;
+}
+
+.form-container {
+    margin: 2rem;
+}
+
+.form-container textarea {
+    font-size: 1.5rem;
+}
+
+.form-container button {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(60, 57, 57);
+    color: rgb(213, 221, 230);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.form-container button:hover {
+    color: white;
+}
+
+/* new.ejs */
+.new-container h2 {
+    margin: 2rem;
+}
+
+.newform-container {
+    margin: 2rem;
+    width: 30%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 20px 30px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newform-container input {
+    font-size: 1.2rem;
+}
+
+.newform-container textarea {
+    font-size: 1.2rem;
+}
+
+.newform-container button {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(60, 57, 57);
+    color: rgb(213, 221, 230);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
